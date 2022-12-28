@@ -1,5 +1,5 @@
 {
-  "name": "node-koa2-blog",
+  "name": "koa2-blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,11 +24,18 @@
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "koa-views": "^6.2.0",
-    "mysql": "^2.17.1",
+    "mysql": "^2.18.1",
+    "nginx": "^1.0.8",
     "pm2": "^4.2.0",
-    "redis": "^2.8.0"
+    "redis": "^2.8.0",
+    "xss": "^1.0.14"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+    "nodemon": "^1.19.4"
+  },
+  "description": "## Start",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
